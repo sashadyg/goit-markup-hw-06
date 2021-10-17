@@ -747,6 +747,7 @@ p {
   top: 0;
   left: 0;
   outline: none;
+  color: var(--white-color);
 }
 
 .subscribe-input:focus {
@@ -890,12 +891,12 @@ p {
   left: 14px;
   width: 16px;
   height: 15px;
-  background-image: url(../images/off.svg);
+  background-image: url(../images/off.SVG);
   transform: translateY(-50%);
 }
 
 .modal-property:checked + .checkbox-property {
-  background-image: url(../images/on.svg);
+  background-image: url(../images/on.SVG);
 }
 
 .modal-btn {
