@@ -886,17 +886,27 @@ p {
 }
 
 .checkbox-property {
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
   position: absolute;
   top: 50%;
   left: 14px;
-  width: 16px;
-  height: 15px;
-  background-image: url(../images/off.svg);
   transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-property:checked + .checkbox-property {
-  background-image: url(../images/on.svg);
+  background-color: var(--active-text);
+  border: none;
+}
+
+.modal-property-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-btn {
